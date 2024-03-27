@@ -1,0 +1,24 @@
+2024-03-27 10:13:50.667 [info] Extension host with pid 3437 started
+2024-03-27 10:13:50.923 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-27 10:13:51.022 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-27 10:13:51.224 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-27 10:13:51.528 [info] Eager extensions activated
+2024-03-27 10:13:51.867 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-27 10:13:51.874 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-27 10:14:05.357 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-27 10:14:05.398 [info] Extension host with pid 3437 exiting with code 0
+2024-03-27 10:14:07.535 [info] Extension host with pid 3548 started
+2024-03-27 10:14:07.535 [info] Skipping acquiring lock for /root/docker/07_compose/01_nginx/~/vscode/User/workspaceStorage/a80dafa7672ec89e64fc4aba9b0d4877.
+2024-03-27 10:14:07.593 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-03-27 10:14:07.620 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-27 10:14:07.668 [info] Eager extensions activated
+2024-03-27 10:14:07.679 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-27 10:14:07.685 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-27 10:15:29.806 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockercompose'
+2024-03-27 10:15:30.424 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-27 10:21:02.153 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-03-27 10:21:59.075 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-03-27 11:04:48.426 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-03-27 11:04:48.542 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-03-27 14:33:33.761 [warning] [Decorations] CAPPING events from decorations provider vscode.git 919
+2024-03-27 14:33:34.389 [warning] [Decorations] CAPPING events from decorations provider vscode.git 919

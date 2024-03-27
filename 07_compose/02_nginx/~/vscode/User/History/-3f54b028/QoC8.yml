@@ -1,0 +1,26 @@
+services:
+  web1:
+    image: jmalloc/echo-server
+    container_name: web1
+    networks:
+      - mynetwork
+
+  web2:
+    image: jmalloc/echo-server
+    container_name: web2
+    networks:
+      - mynetwork
+
+  web3:
+    image: jmalloc/echo-server
+    container_name: web3
+    networks:
+      - mynetwork
+
+  haproxy:
+    image: haproxytech/haproxy-alpine:2.7
+    container_name: haproxy
+    networks:
+      - mynetwork
+    volumes:
+      -"hostPath"":containerPath:ro

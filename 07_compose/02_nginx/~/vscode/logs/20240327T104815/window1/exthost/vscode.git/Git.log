@@ -1,0 +1,74 @@
+2024-03-27 10:48:21.249 [info] 로그 수준: Info
+2024-03-27 10:48:21.249 [info] "git"에서 찾은 git 유효성을 검사하는 중
+2024-03-27 10:48:21.249 [info] "2.43.0"에서 git "git"을(를) 사용하는 중
+2024-03-27 10:48:32.774 [info] 로그 수준: Info
+2024-03-27 10:48:32.775 [info] "git"에서 찾은 git 유효성을 검사하는 중
+2024-03-27 10:48:32.775 [info] "2.43.0"에서 git "git"을(를) 사용하는 중
+2024-03-27 10:48:32.775 [info] > git rev-parse --show-toplevel [10ms]
+2024-03-27 10:48:32.775 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-27 10:48:32.775 [info] > git rev-parse --show-toplevel [10ms]
+2024-03-27 10:48:32.775 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-27 10:48:32.786 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-27 10:48:32.786 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-27 10:48:32.795 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-27 10:48:32.795 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-27 10:48:32.806 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-27 10:48:32.806 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-27 10:48:32.814 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-27 10:48:32.814 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-27 10:48:32.825 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-27 10:48:32.825 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-27 10:48:32.834 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-27 10:48:32.834 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-27 10:48:32.842 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-27 10:48:32.842 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-27 10:48:32.852 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-27 10:48:32.852 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-27 10:48:32.861 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-27 10:48:32.861 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-27 10:48:32.872 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-27 10:48:32.872 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-27 10:48:32.883 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-27 10:48:32.883 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-27 10:48:38.214 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-27 10:48:38.214 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-27 10:49:18.054 [info] > git rev-parse --show-toplevel [23ms]
+2024-03-27 10:49:18.054 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-27 10:56:01.649 [info] > git rev-parse --show-toplevel [13ms]
+2024-03-27 10:56:01.650 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-27 11:28:12.032 [info] > git rev-parse --show-toplevel [4ms]
+2024-03-27 11:28:12.033 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-27 12:34:11.155 [info] > git rev-parse --show-toplevel [38ms]
+2024-03-27 12:34:11.158 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-27 14:33:32.429 [info] > git init -b main [37ms]
+2024-03-27 14:33:32.441 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-27 14:33:32.455 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-03-27 14:33:32.522 [info] Open repository: /root/docker
+2024-03-27 14:33:32.560 [info] No remotes found in the git config file.
+2024-03-27 14:33:32.604 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [48ms]
+2024-03-27 14:33:32.605 [warning] No such branch: main.
+2024-03-27 14:33:32.606 [info] > git config --get commit.template [66ms]
+2024-03-27 14:33:32.655 [info] > git status -z -uall [39ms]
+2024-03-27 14:33:32.720 [info] > git config --get commit.template [3ms]
+2024-03-27 14:33:32.728 [info] No remotes found in the git config file.
+2024-03-27 14:33:32.737 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-03-27 14:33:32.738 [warning] No such branch: main.
+2024-03-27 14:33:32.757 [info] > git status -z -uall [12ms]
+2024-03-27 14:33:33.728 [info] > git check-ignore -v -z --stdin [5ms]
+2024-03-27 14:33:33.885 [info] > git show --textconv :07_haproxy-cmd/docker-compose.yml [21ms]
+2024-03-27 14:33:33.894 [info] > git ls-files --stage -- /root/docker/07_haproxy-cmd/docker-compose.yml [14ms]
+2024-03-27 14:33:33.962 [info] > git ls-files --stage -- /root/docker/07_haproxy-cmd/docker-compose.yml [4ms]
+2024-03-27 14:33:34.055 [info] > git show --textconv :07_haproxy-cmd/docker-compose.yml [5ms]
+2024-03-27 14:33:34.361 [info] > git check-ignore -v -z --stdin [9ms]
+2024-03-27 14:33:35.540 [info] No remotes found in the git config file.
+2024-03-27 14:33:35.541 [info] > git config --get commit.template [13ms]
+2024-03-27 14:33:35.543 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-03-27 14:33:35.543 [warning] No such branch: main.
+2024-03-27 14:33:35.568 [info] > git status -z -uall [16ms]
+2024-03-27 14:33:37.202 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-27 14:33:37.897 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-27 14:33:40.618 [info] No remotes found in the git config file.
+2024-03-27 14:33:40.619 [info] > git config --get commit.template [12ms]
+2024-03-27 14:33:40.621 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-03-27 14:33:40.621 [warning] No such branch: main.
+2024-03-27 14:33:40.649 [info] > git status -z -uall [17ms]
